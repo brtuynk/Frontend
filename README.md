@@ -71,19 +71,6 @@ Changes that need to be made for getting your data on the website are:
 
 3. Then push to the backend branch of the repo
 
-## Deploying to the Heroku 🚀
-
-<img src="https://img.icons8.com/color/480/000000/heroku.png" width="175px" height="175px">
-
-1. Now finally add build-packs to the apps in Heroku and deploy the respective branches separately by connecting to the Github
-
-    > We can deploy it together as well but I have chosen to deploy separately.
-
-## Author ✍️
-
-1. <img src="https://avatars.githubusercontent.com/u/73348574?v=4" alt='img' width='40px' height='40px' /> [Pranavdhar](https://www.Github.com/iampranavdhar)
-
-
 ## Note
 
 If you found this useful, then please consider giving it a 🌟 on Github and sharing it with your friends.<br>
