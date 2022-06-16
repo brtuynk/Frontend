@@ -2,7 +2,7 @@ version: "3.7"
 services:
   website:
     build: .
-    image: beratuyanik/beratuyanik.com-web:1.0.1
+    image: beratuyanik/frontend:1.0.1
     platform: linux/amd64
     ports:
       - "3000:80"
