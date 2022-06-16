@@ -22,7 +22,7 @@ function Projects() {
             body: JSON.stringify({query}),
         };
 
-         fetch('https://api-pranavdhar.herokuapp.com/graphql', sendingPost)
+         fetch('https:///api.beratuyanik.com/graphql', sendingPost)
             .then(response => response.json())
             .then(data => setProjects(data.data.allProjects));
     },[query])
