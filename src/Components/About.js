@@ -7,7 +7,7 @@ function About() {
       <h2 className="about-title">About</h2>
       <div className="about-data">
         <div className="about-img">
-          <img src="assets/about.jpeg" alt="" />
+          <img src="assets/about2.jpg" alt="" />
         </div>
         <div>
           <h2 className="about-subtitle">I'am Berat UYANIK</h2>

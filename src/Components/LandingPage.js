@@ -4,14 +4,12 @@ import Blogs from './Blogs'
 import Contact from './Contact'
 import Footer from './Footer'
 import Home from './Home'
-import Projects from './Projects'
 
 function LandingPage() {
     return (
         <div>
             <Home/>
             <About/>
-            <Projects/>
             <Blogs/>
             <Contact/>
             <Footer/>
