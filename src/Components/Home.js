@@ -1,7 +1,6 @@
 import { React } from 'react';
 import './Home.css';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import TwitterIcon from '@material-ui/icons/Twitter';
 import GitHubIcon from '@material-ui/icons/GitHub';
 
 function Home() {
@@ -25,10 +24,7 @@ function Home() {
                 <a href="https://www.linkedin.com/in/berat-uyanık-7b5162175/" className="home-social-icon">
                     <LinkedInIcon className='icon' />
                 </a>
-                <a href="https://www.linkedin.com/in/berat-uyanık-7b5162175/" className="home-social-icon">
-                    <TwitterIcon className='icon' />
-                </a>
-                <a href="https://www.linkedin.com/in/berat-uyanık-7b5162175/" className="home-social-icon">
+                <a href="https://github.com/brtuynk" className="home-social-icon">
                     <GitHubIcon className='icon' />
                 </a>
             </div>
