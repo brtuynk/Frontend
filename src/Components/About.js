@@ -10,7 +10,7 @@ function About() {
           <img src="assets/about2.jpg" alt="" />
         </div>
         <div>
-          <h2 className="about-subtitle">I'am Berat UYANIK</h2>
+          <h2 className="about-subtitle">I'm Berat UYANIK</h2>
           <p className="about-text">
           I am a graduate from Yıldız Technical University industrial engineering and information technologies. 
           I have been actively working in the industry as a Devops engineer for 4 years. I am currently working 
