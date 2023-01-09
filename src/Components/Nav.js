@@ -37,6 +37,7 @@ function Nav({themeSetter,theme}) {
                     <div className={menutoggle? "nav-options active" : "nav-options"}>
                         <a onClick={()=>{closeMenu();navigate("#home")}} href="#home">Home</a>
                         <a onClick={()=>{closeMenu();navigate("#about")}} href="#about">About</a>
+                        <a onClick={()=>{closeMenu();navigate("#certifications")}} href="#certifications">Certifications</a>
                         <a onClick={()=>{closeMenu();navigate("#blogs")}} href="#blogs">Blogs</a>
                         <a onClick={()=>{closeMenu();navigate("#contact")}} href="#contact">Contact</a>
                     </div>

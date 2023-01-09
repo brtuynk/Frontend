@@ -29,16 +29,14 @@ function Projects() {
 
     return (
     <div className='projects' id='projects'>
-        <p>Projects</p>
+        <p>My Certifications</p>
         <div className='projects-container'>
         {projects.map((project) =>
                 <ProjectCard
                     key={project.id}
                     image={"https://api.beratuyanik.com/media/"+project.image}
                     description={project.projectDescription}
-                    codelink={project.codeLink}
-                    demolink={project.demoLink}
-                />
+                    codelink={project.codeLink}                />
             )}
         </div>
         </div>
