@@ -10,21 +10,32 @@ function About() {
           <img src="assets/about2.jpg" alt="" />
         </div>
         <div>
-          <h2 className="about-subtitle">A little bit about myself...</h2>
+          <h2 className="about-subtitle">A little bit about myself... </h2>
           <p className="about-text">
           I am a graduate from Yıldız Technical University industrial engineering and information technologies. 
-          I have been actively working in the industry as a Devops engineer for 4 years. I am currently working 
-          as Devops Team leader in Westerops IT, but also working as a Devops engineer at TurkNet. I actively use 
-          current technologies and cloud environments. I have experience in technologies such as Docker - Kubernetes
-          - ELK - Nginx - IIS - HaProxy - NewRelic - Prometheus - Grafana - Zabbix - Azure Devops - Jenkins - Gitlab
-           CI/CD and I also master many cloud services on AWS.
+          I have been actively working in the industry as a Devops Engineer for 5 years. I am currently working 
+          as Senior Devops Engineer in Colendi. I actively use current technologies and cloud environments. I have experience in technologies such as Docker - Kubernetes
+          - ELK - Nginx - IIS - HaProxy - NewRelic - Prometheus - Loki - Grafana - Zabbix - Azure Devops - Jenkins - Gitlab
+           CI/CD - Argo Cd - Github Action - Dynatrace - Terraform - Redis - RabbitMq - Rancher - Consul - Vault  and I also master many cloud services on AWS.
             </p>
           <p><b>Languages and tools known:</b> </p>
           <p>
             <img className='tech-image' src="assets/aws.png" alt='aws'/>
             <img className='tech-image' src="assets/docker.png" alt='docker'/>
-            <img className='tech-image' src="assets/k8s.png" alt='k8s'/>
-            <img className='tech-image' src="assets/alibaba.png" alt="alibabcloud" />
+            <img className='tech-image' src="assets/kubernetes.svg" alt='k8s'/>
+            <img className='tech-image' src="assets/rancher.png" alt='Rancher'/>
+            <img className='tech-image' src="assets/dynatrace.png" alt='Dynatrace'/>
+            <img className='tech-image' src="assets/loki.png" alt='Loki'/>
+            <img className='tech-image' src="assets/consul.svg" alt='Consul'/>
+            <img className='tech-image' src="assets/vault.svg" alt='Vault'/>
+            <img className='tech-image' src="assets/redis.png" alt='Redis'/>
+            <img className='tech-image' src="assets/rabbitmq.png" alt='RabbitMq'/>
+            <img className='tech-image' src="assets/terraform.svg" alt='Terraform'/>
+            <img className='tech-image' src="assets/argo.png" alt="argocd" />
+          </p>
+          <p>
+            <img className='tech-image' src="assets/alibaba.svg" alt="alibabcloud" />
+            <img className='tech-image' src="assets/azure-devops.svg" alt="azure-devops" />
             <img className='tech-image' src="assets/jenkins.png" alt="jenkins" />
             <img className='tech-image' src="assets/prometheus.png" alt='prometheus'/>
             <img className='tech-image' src="assets/grafhana.png" alt='grafana'/>
@@ -36,7 +47,7 @@ function About() {
             <img className='tech-image' src="assets/newrelic.png" alt="New Relic" />
             <img className='tech-image' src="assets/git.png" alt="git" />
             <img className='tech-image' src="assets/gitlab.png" alt="gitlab" />
-
+            <img className='tech-image' src="assets/github.png" alt="github" />
           </p>
         </div>
       </div>
