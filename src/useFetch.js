@@ -32,7 +32,7 @@ const useFetch = () => {
     useEffect( ()=>{
         const sendingPost = {
             method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
+            headers: { 'Content-Type': 'application/json', 'access-control-allow-origin': "*" },
             body: JSON.stringify({query}),
         };
         fetch('https://api.beratuyanik.com/graphql', sendingPost)
