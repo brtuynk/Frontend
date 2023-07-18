@@ -22,14 +22,7 @@ function BlogPage() {
             <div className='blog-content'>
                 <div>
                     <p className='blog-title'>{blogpage.title}</p>
-                </div>
-                <div >
-                    <p className='category'><b>Category:</b> {blogpage.category}</p>
-                </div>
-                <div>
-                    <img className = 'blog-coverimage' src={coverimage} alt='CoverImage'/>
-                </div>
-                
+                </div> 
                 {/* This dangerouslySetInnerHTML is for rendering exactly the html elements in the div without escaping the html tags */}
                 <div className='blog-description'
                     dangerouslySetInnerHTML={{
