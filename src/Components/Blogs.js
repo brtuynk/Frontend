@@ -19,7 +19,7 @@ function Blogs() {
     useEffect(() => {
         const sendingPost = {
             method: 'POST',
-            headers: { 'Content-Type': 'application/json', 'access-control-allow-origin': "*" },
+            headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({query}),
         };
 
